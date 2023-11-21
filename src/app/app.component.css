@@ -1,0 +1,14 @@
+
+.titulo {
+  color: var(--texto-primario);
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 16px;
+  padding-top: 1%;
+}
+
+.stitulo {
+  color: var(--texto-secundario);
+  font-weight: 400;
+  font-size: 1.5em;
+}

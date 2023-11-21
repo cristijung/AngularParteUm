@@ -4,8 +4,17 @@
   --texto-primario: #1C1C1C;
   --texto-secundario: #363636;
   --texto-legenda: #4F4F4F;
-  
+
+  font-size: 20px;
+
 }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.content {
+  max-width: 95%;
+  margin: auto;
+}
+
+
