@@ -19,3 +19,4 @@
 - Comando para instalação do Angular CLI: `npm install -g @angular/cli`
 - Comando para instalação do Material Angular: `ng add @angular/material`
 - Comando para gerar o arquivo app-module.ts quando precisar. No Angular 17 este arquivo é opcional: `ng generate module app`
+
