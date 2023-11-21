@@ -1,5 +1,32 @@
 <section class="content">
-  <p class="titulo">Angular 17</p>
-  <p class="stitulo">Estrutura & Arquitetura</p>
-  <div class="legend">Rotas</div>
+  <p class="titulo">{{ title }}</p>
+  <p class="stitulo">{{ stitle }}</p>
+  <p class="legend">{{ legend }}</p>
+  <hr />
+  <nav>
+    <ul>
+      <li>
+        <a
+          routerLink="/first-component"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          >Primeiro Componente</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/second-component"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          >Segundo Componente</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <hr />
+  <main>
+    <router-outlet></router-outlet>
+  </main>
 </section>
+
+
