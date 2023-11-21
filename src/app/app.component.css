@@ -11,4 +11,11 @@
   color: var(--texto-secundario);
   font-weight: 400;
   font-size: 1.5em;
+  line-height: 16px;
+}
+
+.legend {
+  color: var(--texto-legenda);
+  font-size: 1.2em;
+
 }
