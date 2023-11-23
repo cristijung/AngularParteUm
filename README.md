@@ -29,3 +29,6 @@
 - Comando para instalação do Material Angular: `ng add @angular/material`
 - Comando para gerar o arquivo app-module.ts quando precisar. No Angular 17 este arquivo é opcional: `ng generate module app`
 
+### Link para conteúdos relacionados -- Aulas
+- Aula I: (https://docs.google.com/document/d/177fqbLdCpj1y9zR9XYyw0vZn0KHdkPujlcDffpXhepQ/edit?usp=sharing) 
+- Aula II: (https://docs.google.com/document/d/1XHIX9TYr6Xh3LJEtUuqF0R4bEMFCxelkkELyOfdSgsY/edit?usp=sharing) 
