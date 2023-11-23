@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-first',
+  selector: 'app-filho',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './first.component.html',
-  styleUrl: './first.component.css'
+  templateUrl: './filho.component.html',
+  styleUrl: './filho.component.css'
 })
-export class FirstComponent {
+export class FilhoComponent {
 
 }
-
