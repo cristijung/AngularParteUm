@@ -4,6 +4,7 @@
   --texto-primario: #1C1C1C;
   --texto-secundario: #363636;
   --texto-legenda: #4F4F4F;
+  --fundo-page: #FFF0F5;
 
   font-size: 20px;
 
@@ -15,6 +16,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .content {
   max-width: 95%;
   margin: auto;
+  background-color: var(--fundo-page);
+  padding: 1%;
 }
 
 

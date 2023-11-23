@@ -1,1 +1,7 @@
-<p>pai works!</p>
+<section>
+  <h2>Componente Pai</h2>
+  <p>Mensagem que vai para o componente filho: {{ mensagemParaFilho }}</p>
+  <p>Abaixo o componente filho com a mensagem passada/recebida</p>
+  <hr/>
+  <app-filho [mensagemDoPai]="mensagemParaFilho"></app-filho>
+</section>

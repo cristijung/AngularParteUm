@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-filho',
@@ -9,5 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './filho.component.css'
 })
 export class FilhoComponent {
+  @Input() mensagemDoPai: string = '';
 
 }
+
