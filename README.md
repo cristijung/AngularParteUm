@@ -22,6 +22,7 @@
 - Passando dados do pai para o filho → decorator: `@Input()`;
 - Passando dados do filho para o pai → decorator: `@Output()`;
 - Hooks no Angular: `ngOnInit()`;
+- Diretiva `ng-content`;
 
 
 # Observações
