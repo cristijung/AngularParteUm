@@ -1,10 +1,11 @@
 import { Component, Input, Optional } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-conteudo',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardComponent],
   templateUrl: './conteudo.component.html',
   styleUrl: './conteudo.component.css'
 })
