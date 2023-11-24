@@ -13,3 +13,4 @@ export class SecondComponent {
   fontSizePx = 16;
 
 }
+

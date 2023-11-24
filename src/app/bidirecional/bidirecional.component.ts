@@ -22,3 +22,5 @@ export class BidirecionalComponent {
     this.sizeChange.emit(this.size);
   }
 }
+
+

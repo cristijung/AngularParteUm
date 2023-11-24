@@ -12,5 +12,5 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'Angular Parte Um';
   stitle = 'Estrutura & Arquitetura';
-  legend = 'Rotas, Fluxo de Dados, '
+  legend = 'Rotas, Fluxo de Dados, One-Way Binding, Two-Way Binding e ng-content';
 }
