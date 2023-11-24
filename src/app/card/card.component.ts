@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
-export class CardComponent {
+export class CardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
@@ -16,3 +16,4 @@ export class CardComponent {
   }
 
 }
+
