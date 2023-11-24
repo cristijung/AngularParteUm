@@ -18,6 +18,7 @@
 ### Aula II
 - Fluxo de Dados
 - Fluxo de dados entre componentes
+- Property Binding (one-way);
 - Dados e propriedades de entrada
 - Passando dados do pai para o filho → decorator: `@Input()`;
 - Passando dados do filho para o pai → decorator: `@Output()`;
