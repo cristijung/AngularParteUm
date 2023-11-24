@@ -1,1 +1,7 @@
-<p>second works!</p>
+<section>
+  <h1>Two-way Binding - exemplo</h1>
+  <h2>Ajuste de tamanho de texto</h2>
+  <app-bidirecional [(size)]="fontSizePx"></app-bidirecional>
+  <br/>
+  <div [style.font-size.px]="fontSizePx">Ajustar tamanho do Texto</div>
+</section>
