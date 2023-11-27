@@ -10,7 +10,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular Parte Um';
+  title = 'Angular17 - Parte Um';
   stitle = 'Estrutura & Arquitetura';
   legend = 'Rotas, Fluxo de Dados, One-Way Binding, Two-Way Binding e ng-content';
 }
